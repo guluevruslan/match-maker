@@ -1,0 +1,3 @@
+application:
+  match:
+    groupSize: 8

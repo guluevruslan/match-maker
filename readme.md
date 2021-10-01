@@ -34,6 +34,8 @@ For each SkillBucket and latency type in it:
 
 > Solution will work in cases where users amount is much more than `groupSize` and level difference between users
 
+> Groups are created by scheduled worker [MatchScheduledWorker](src/main/java/com/match/making/worker/MatchScheduledWorker.java)
+
 > To change `groupSize` it is necessary to update in application.yml 
 > ```yml
 > application:
